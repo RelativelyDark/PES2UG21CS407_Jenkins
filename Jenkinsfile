@@ -26,7 +26,7 @@ pipeline {
     }
   }
   post {
-    fallure{
+    failure{
       error 'Pipeline failed'
     }
   }
